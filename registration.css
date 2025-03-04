@@ -1,0 +1,65 @@
+*{
+    margin:0;
+    padding:0;
+    box-sizing: border-box;
+}
+h1{
+    color: rgb(232, 232, 28);
+}
+body{
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    background-color: rgb(250, 252, 252);
+}
+header{
+    background-color: black;
+    color:aliceblue;
+    padding: 1rem;
+}
+nav ul{
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    display: flex;
+}
+nav ul li{
+    margin-left: 1rem;
+}
+nav a{
+    color: azure;
+    text-decoration: none;
+}
+nav a:hover{
+      color:rgb(210, 210, 61);
+}
+.container{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.box input{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width:500px;
+    height: 34px;/* Ensure the body covers the full viewport height */
+    margin-top: 20px;
+    margin-left: 500px;
+}
+.but button{
+    background-color : black;
+    width:500px;
+    height: 34px;;
+    border: none;
+    padding: 0.5 rem;
+    cursor: pointer;
+    color:aliceblue;
+    font-size: 20px;
+    margin-left: 500px;
+    margin-top: 20px;
+}
+.but button:hover{
+    color: rgb(189, 203, 29);
+}
+
+

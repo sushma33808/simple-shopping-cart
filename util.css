@@ -1,0 +1,41 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: Arial,sans-serif;
+    background-color: #f0f0f0;
+}
+
+header {
+    background-color: #333;
+    color: #fff;
+    padding: 1rem;
+}
+
+nav ul {
+    list-style-type: none; /* to remove bullets */
+    margin: 0;
+    padding: 0;
+    display: flex;
+}
+
+nav ul li {
+    margin-left: 1rem;
+}
+nav a {
+    color: white;
+    text-decoration: none; /* to remove underlines */
+}
+
+nav a:hover {   /* hover is for changing color when you keep cursor on the link */
+    color: lightskyblue;
+}
+
+.container { /* to separate the heading and links */
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
